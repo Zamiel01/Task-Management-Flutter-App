@@ -1,0 +1,58 @@
+# Flutter & Android build
+/build
+/android/app/build/
+/android/.gradle/
+/android/.cxx/
+*.apk
+*.aab
+
+# Flutter/Dart/Pub
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Generated documentation
+**/doc/api/
+
+# iOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Runner/GeneratedPluginRegistrant.*
+
+# Android
+android/.gradle/
+android/captures/
+android/local.properties
+android/app/build/
+android/app/debug/
+android/app/profile/
+android/app/release/
+
+# Windows
+windows/Flutter/
+windows/runner/Debug/
+windows/runner/Release/
+windows/runner/GeneratedPluginRegistrant.*
+
+# IntelliJ / VS Code
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/
+
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+*.keystore
